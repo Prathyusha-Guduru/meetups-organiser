@@ -1,4 +1,5 @@
 import { Component } from "react";
+import DUMMY_EVENTS from "../dummyData";
 
 class MeetupItem extends Component{
 	constructor(props){
@@ -7,7 +8,7 @@ class MeetupItem extends Component{
 	render(){
 		return(
 			<div>
-				{/* <h2>{this.props.location}</h2> */}
+				
 				<h1>meetup item</h1>
 			</div>
 		)
